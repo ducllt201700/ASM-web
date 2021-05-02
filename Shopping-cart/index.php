@@ -52,7 +52,7 @@
                     <h3>Need some help?</h3>
                     <div class="getting-started-info">
                         <p>Struggling to find what you want? Sign up and get free direct customer service from us now!</p>
-                    </div><a class="btn btn-outline-primary btn-lg" href="registration.html">Sign up</a></div>
+                    </div><a class="btn btn-outline-primary btn-lg" href="registration.php">Sign up</a></div>
             </div>
         </div>
     </section>

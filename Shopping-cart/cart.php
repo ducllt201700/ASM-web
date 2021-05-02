@@ -2,10 +2,10 @@
 
 session_start();
 
-require_once ("php/CreateCartDb.php");
+require_once ("php/CreateDb.php");
 require_once ("php/component.php");
 
-$db = new CreateCartDb("Productdb", "Producttb");
+$db = new CreateDb("Productdb", "Producttb");
 
 if (isset($_POST['remove'])){
   if ($_GET['action'] == 'remove'){

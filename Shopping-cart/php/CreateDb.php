@@ -1,7 +1,7 @@
 <?php
 
 
-class CreateCartDb
+class CreateDb
 {
         public $servername;
         public $username;
@@ -48,8 +48,7 @@ class CreateCartDb
                              product_name VARCHAR (25) NOT NULL,
                              product_price FLOAT,
                              product_image VARCHAR (100)
-                            );";
-
+                            )";
             if (!mysqli_query($this->con, $sql)){
                 echo "Error creating table : " . mysqli_error($this->con);
             }
@@ -70,6 +69,8 @@ class CreateCartDb
             return $result;
         }
     }
+
+
 }
 
 

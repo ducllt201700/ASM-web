@@ -2,12 +2,12 @@
 
 session_start();
 
-require_once ('php/CreateCartDb.php');
-require_once ('./php/component.php');
+require_once ('php/CreateDb.php');
+require_once ('php/component.php');
 
 
 // create instance of CreateCartdb class
-$database = new CreateCartDb("Productdb", "Producttb");
+$database = new CreateDb("Productdb", "Producttb");
 
 if (isset($_POST['add'])){
     /// print_r($_POST['product_id']);
